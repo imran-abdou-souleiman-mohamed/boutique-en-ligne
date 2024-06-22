@@ -55,7 +55,7 @@ body {
 }
 
 .product img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2); /* Réduit l'effet de zoom */
 }
 
 .product h3 {
@@ -71,6 +71,31 @@ body {
 
 .product-details p {
     margin: 5px 0;
+}
+
+.product-details .price-add-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details .price-add-cart p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.product-details .price-add-cart button {
+    padding: 5px 8px; /* Réduit la taille du bouton */
+    font-size: 14px; /* Réduit la taille du texte du bouton */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-details .price-add-cart button:hover {
+    background-color: #0056b3;
 }
 
 .filter {

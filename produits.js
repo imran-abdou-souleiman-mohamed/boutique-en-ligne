@@ -124,7 +124,10 @@ function displayProducts(products) {
             <h3>${product.name}</h3>
             <div class="product-details" id="details-${product.id}">
                 <p>${product.description}</p>
-                <p>Prix: ${product.price}€</p>
+                <div class="price-add-cart">
+                    <p>Prix: ${product.price}€</p>
+                    <button onclick="addToCart(${product.id})">Ajout au panier</button>
+                </div>
             </div>
         `;
         productList.appendChild(productDiv);
@@ -144,4 +147,9 @@ function filterProducts() {
 function showDetails(productId) {
     const details = document.getElementById(`details-${productId}`);
     details.style.display = details.style.display === 'none' ? 'block' : 'none';
+}
+
+function addToCart(productId) {
+    // Vous pouvez ajouter ici la logique pour ajouter le produit au panier
+    alert(`Produit ${productId} ajouté au panier!`);
 }
