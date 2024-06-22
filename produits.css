@@ -43,7 +43,8 @@ body {
     margin: 10px;
     text-align: center;
     display: inline-block;
-    width: 200px;
+    width: calc(33.33% - 20px); /* Affichage en 3 colonnes sur les grands écrans */
+    max-width: 300px; /* Largeur maximale pour chaque produit */
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
@@ -64,7 +65,7 @@ body {
 
 /* Effet de zoom sur les images lors du survol */
 .product img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* Style pour le titre (nom) du produit */
@@ -114,15 +115,29 @@ body {
     background-color: #0056b3;
 }
 
-/* Style pour la section de filtrage, avec affichage en ligne flexible */
-.filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+/* Media queries pour les écrans de taille moyenne à petite */
+@media (max-width: 1024px) {
+    .product {
+        width: calc(50% - 20px); /* Affichage en 2 colonnes sur les écrans moyens */
+        max-width: 400px; /* Largeur maximale pour chaque produit */
+    }
 }
 
-/* Style pour les listes déroulantes de filtrage lorsqu'elles sont sélectionnées */
-.filter select:focus {
-    outline: none;
-    border-color: #007bff;
+@media (max-width: 768px) {
+    .product {
+        width: 100%; /* Affichage en 1 colonne sur les petits écrans */
+        max-width: 100%; /* Largeur maximale pour chaque produit */
+    }
+}
+
+@media (max-width: 480px) {
+    .filter {
+        flex-direction: column; /* Réorganiser les filtres en colonne sur les très petits écrans */
+        align-items: center; /* Centrer les éléments dans la colonne */
+    }
+
+    .filter select {
+        width: 100%; /* Largeur pleine pour les listes déroulantes */
+        margin-bottom: 10px; /* Espacement inférieur entre les listes déroulantes */
+    }
 }
