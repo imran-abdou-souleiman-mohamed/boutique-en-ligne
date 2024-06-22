@@ -10,9 +10,9 @@ const products = [
     },
     {
         "id": 2,
-        "name": "Produit 2",
-        "description": "Description du produit 2",
-        "price": 20.00,
+        "name": "Opyum Sandales en cuir verni YSL",
+        "description": "Détail",
+        "price": 1200.00,
         "category": "femme",
         "subcategory": "sneaker",
         "image": "p2.jpg"
@@ -28,9 +28,9 @@ const products = [
     },
     {
         "id": 4,
-        "name": "Produit 4",
-        "description": "Description du produit 4",
-        "price": 40.00,
+        "name": "Robe en crêpe",
+        "description": "Détail",
+        "price": 1690.00,
         "category": "femme",
         "subcategory": "pret-a-porter",
         "image": "p4.jpg"
@@ -46,9 +46,9 @@ const products = [
     },
     {
         "id": 6,
-        "name": "Produit 6",
-        "description": "Description du produit 6",
-        "price": 60.00,
+        "name": "Bracelet Cassandre à ornements YSL",
+        "description": "Détail",
+        "price": 350.00,
         "category": "femme",
         "subcategory": "bijoux",
         "image": "p6.jpg"
@@ -64,16 +64,16 @@ const products = [
     },
     {
         "id": 8,
-        "name": "Produit 8",
-        "description": "Description du produit 8",
-        "price": 80.00,
+        "name": "Sandales en cuir Cassandra YSL",
+        "description": "Détail",
+        "price": 1200.00,
         "category": "femme",
         "subcategory": "sneaker",
         "image": "p8.jpg"
     },
     {
         "id": 9,
-        "name": "collier",
+        "name": "collier en maille",
         "description": "Détail",
         "price": 129.00,
         "category": "homme",
@@ -82,9 +82,9 @@ const products = [
     },
     {
         "id": 10,
-        "name": "Produit 10",
-        "description": "Description du produit 10",
-        "price": 100.00,
+        "name": "Robe drapée",
+        "description": "Détail",
+        "price": 2490.00,
         "category": "femme",
         "subcategory": "pret-a-porter",
         "image": "p10.jpg"
@@ -100,9 +100,9 @@ const products = [
     },
     {
         "id": 12,
-        "name": "Produit 12",
-        "description": "Description du produit 12",
-        "price": 120.00,
+        "name": "Bague à plaque Logo - Or YSL",
+        "description": "Détail",
+        "price": 295.00,
         "category": "femme",
         "subcategory": "bijoux",
         "image": "p12.jpg"
