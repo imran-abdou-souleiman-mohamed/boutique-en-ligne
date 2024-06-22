@@ -1,3 +1,4 @@
+/* Styles généraux pour le corps de la page */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,18 +6,21 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Conteneur principal pour limiter la largeur et centrer le contenu */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/* Style pour la section de filtrage */
 .filter {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
+/* Styles pour les listes déroulantes de filtrage */
 .filter select {
     padding: 10px;
     margin: 0 10px;
@@ -24,12 +28,14 @@ body {
     border: 1px solid #ccc;
 }
 
+/* Conteneur pour la liste des produits, avec affichage en ligne flexible */
 #productList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Style pour chaque produit individuel */
 .product {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -43,10 +49,12 @@ body {
     transition: transform 0.2s;
 }
 
+/* Effet de survol pour les produits */
 .product:hover {
     transform: scale(1.05);
 }
 
+/* Style pour les images des produits */
 .product img {
     width: 100px;
     height: 100px;
@@ -54,39 +62,46 @@ body {
     cursor: pointer;
 }
 
+/* Effet de zoom sur les images lors du survol */
 .product img:hover {
-    transform: scale(1.2); /* Réduit l'effet de zoom */
+    transform: scale(1.2);
 }
 
+/* Style pour le titre (nom) du produit */
 .product h3 {
     margin: 10px 0;
     font-size: 18px;
 }
 
+/* Style pour les détails du produit (initialement cachés) */
 .product-details {
     display: none;
     text-align: left;
     margin-top: 10px;
 }
 
+/* Style pour les paragraphes dans les détails du produit */
 .product-details p {
     margin: 5px 0;
 }
 
+/* Style pour la section prix et ajout au panier */
 .product-details .price-add-cart {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Style pour le paragraphe du prix */
 .product-details .price-add-cart p {
     margin: 0;
     font-weight: bold;
 }
 
+/* Style pour le bouton "Ajout au panier" */
 .product-details .price-add-cart button {
-    padding: 5px 8px; /* Réduit la taille du bouton */
-    font-size: 14px; /* Réduit la taille du texte du bouton */
+    padding: 5px 8px;
+    font-size: 14px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -94,23 +109,19 @@ body {
     cursor: pointer;
 }
 
+/* Effet de survol pour le bouton "Ajout au panier" */
 .product-details .price-add-cart button:hover {
     background-color: #0056b3;
 }
 
+/* Style pour la section de filtrage, avec affichage en ligne flexible */
 .filter {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.filter select {
-    padding: 10px;
-    margin: 0 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
+/* Style pour les listes déroulantes de filtrage lorsqu'elles sont sélectionnées */
 .filter select:focus {
     outline: none;
     border-color: #007bff;

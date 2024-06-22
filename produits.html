@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="produits.css">
 </head>
 <body>
+    <!-- Section de filtrage des produits par catégorie et sous-catégorie -->
     <div class="filter">
         <select id="categoryFilter" onchange="filterProducts()">
             <option value="">Toutes les catégories</option>
@@ -20,10 +21,13 @@
             <option value="bijoux">Bijoux</option>
         </select>
     </div>
+
+    <!-- Section où les produits seront affichés -->
     <div id="productList">
-        <!-- Les produits seront chargés ici -->
+        <!-- Les produits seront chargés ici dynamiquement -->
     </div>
 
+    <!-- Chargement du script JavaScript pour gérer l'affichage et les filtres -->
     <script src="produits.js"></script>
 </body>
 </html>
