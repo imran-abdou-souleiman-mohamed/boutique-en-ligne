@@ -1,12 +1,12 @@
 const products = [
     {
         "id": 1,
-        "name": "Produit 1",
-        "description": "Description du produit 1",
-        "price": 10.00,
+        "name": "Chemise LV",
+        "description": "Détail",
+        "price": 790.00,
         "category": "homme",
         "subcategory": "pret-a-porter",
-        "image": "p1.jpg"
+        "image": "p1.png"
     },
     {
         "id": 2,
@@ -19,9 +19,9 @@ const products = [
     },
     {
         "id": 3,
-        "name": "Produit 3",
-        "description": "Description du produit 3",
-        "price": 30.00,
+        "name": "Bracelet Fossil",
+        "description": "Détail",
+        "price": 69.00,
         "category": "homme",
         "subcategory": "bijoux",
         "image": "p3.jpg"
@@ -37,9 +37,9 @@ const products = [
     },
     {
         "id": 5,
-        "name": "Produit 5",
-        "description": "Description du produit 5",
-        "price": 50.00,
+        "name": "Adidas Samba",
+        "description": "Détail",
+        "price": 64.95,
         "category": "homme",
         "subcategory": "sneaker",
         "image": "p5.jpg"
@@ -55,12 +55,12 @@ const products = [
     },
     {
         "id": 7,
-        "name": "Produit 7",
-        "description": "Description du produit 7",
-        "price": 70.00,
+        "name": "Chino LV",
+        "description": "Détail",
+        "price": 670.00,
         "category": "homme",
         "subcategory": "pret-a-porter",
-        "image": "p1.jpg"
+        "image": "p7.png"
     },
     {
         "id": 8,
@@ -69,16 +69,16 @@ const products = [
         "price": 80.00,
         "category": "femme",
         "subcategory": "sneaker",
-        "image": "p2.jpg"
+        "image": "p8.jpg"
     },
     {
         "id": 9,
-        "name": "Produit 9",
-        "description": "Description du produit 9",
-        "price": 90.00,
+        "name": "collier",
+        "description": "Détail",
+        "price": 129.00,
         "category": "homme",
         "subcategory": "bijoux",
-        "image": "p3.jpg"
+        "image": "p9.jpg"
     },
     {
         "id": 10,
@@ -87,16 +87,16 @@ const products = [
         "price": 100.00,
         "category": "femme",
         "subcategory": "pret-a-porter",
-        "image": "p4.jpg"
+        "image": "p10.jpg"
     },
     {
         "id": 11,
-        "name": "Produit 11",
-        "description": "Description du produit 11",
-        "price": 110.00,
+        "name": "Vans Knu Skool",
+        "description": "Détail",
+        "price": 95.00,
         "category": "homme",
         "subcategory": "sneaker",
-        "image": "p5.jpg"
+        "image": "p11.jpg"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@ const products = [
         "price": 120.00,
         "category": "femme",
         "subcategory": "bijoux",
-        "image": "p6.jpg"
+        "image": "p12.jpg"
     }
 ];
 
