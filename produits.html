@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue de Produits</title>
+    <link rel="stylesheet" href="produits.css">
+</head>
+<body>
+    <div class="filter">
+        <select id="categoryFilter" onchange="filterProducts()">
+            <option value="">Toutes les catégories</option>
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+        </select>
+        <select id="subcategoryFilter" onchange="filterProducts()">
+            <option value="">Toutes les sous-catégories</option>
+            <option value="pret-a-porter">Prêt-à-porter</option>
+            <option value="sneaker">Sneaker</option>
+            <option value="bijoux">Bijoux</option>
+        </select>
+    </div>
+    <div id="productList">
+        <!-- Les produits seront chargés ici -->
+    </div>
+
+    <script src="produits.js"></script>
+</body>
+</html>
