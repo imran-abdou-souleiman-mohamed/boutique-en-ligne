@@ -39,3 +39,6 @@ button .fa-solid{
     font-size: 22px;
     cursor: pointer;
 }
+::placeholder{
+    color: #000000;
+}
