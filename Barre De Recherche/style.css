@@ -19,3 +19,12 @@ body{
     align-items: center;
     padding: 10px 20px;
 }
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
