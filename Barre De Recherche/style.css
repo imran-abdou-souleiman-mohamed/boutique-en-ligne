@@ -14,3 +14,7 @@ body{
   margin: 200px auto 0;
   border-radius: 5px ;
 }
+.row{
+    display: flex;
+    align-items: center;
+}
