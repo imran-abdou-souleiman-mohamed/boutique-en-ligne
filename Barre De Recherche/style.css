@@ -28,3 +28,8 @@ input{
     font-size: 18px;
     color: #333;
 }
+button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
