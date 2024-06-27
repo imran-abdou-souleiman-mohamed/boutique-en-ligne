@@ -8,3 +8,9 @@ body{
     background-color: #262a2f;
     color: #333;
 }
+.search-box{
+  width: 600px;
+  background:#fff;
+  margin: 200px auto 0;
+  border-radius: 5px ;
+}
